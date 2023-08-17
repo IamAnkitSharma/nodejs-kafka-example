@@ -15,7 +15,7 @@ const kafka = new Kafka({
 });
 
 const topic = 'topic-test'
-const consumer = kafka.consumer({ groupId: 'test-group' });
+const consumer = kafka.consumer({ groupId: 'test-group-2' });
 
 const receivedMessages = {};
 

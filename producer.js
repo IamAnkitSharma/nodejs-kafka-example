@@ -24,7 +24,7 @@ const sendMessage = (key, value) => {
       compression: CompressionTypes.GZIP,
       messages: [{
         key,
-        value,
+        value
       }],
     });
 }
